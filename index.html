@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>Web-Design-Homework</title>
+
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Link to STYLE.CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+        <!-- Navbar Webpage Name -->
+        <a class="navbar-brand" href="index.html">Latitude Data</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar Dropdown List -->
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav navbar-right">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-stats"></span>
+                Plots
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Max Temperature</a>
+                <a class="dropdown-item" href="#">Humidity</a>
+                <a class="dropdown-item" href="#">Cloudiness</a>
+                <a class="dropdown-item" href="#">Wind Speed</a>
+              </div>
+            </li>
+
+            <!-- Navbar Other Buttons -->
+            <li class="nav-item active">
+                <a class="nav-link" href="comparison.html"><span class="glyphicon glyphicon-filter"></span>Comparison <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item final-nav-item">
+                <a class="nav-link" href="data.html"><span class="glyphicon glyphicon-list"></span>Data</a>
+              </li>
+          </ul>
+        </div>
+      </nav>
+
+      <container>
+
+        <main class="container">
+
+            <!-- Latitude project overview -->
+            <section id="landing-page">
+                <section id="introduction">
+                    <h1 id="site-name">The Impact of Latitude</h1>
+                </section>
+                <hr>
+                <p>
+                    Living in Indiana, my grandparents used to travel south to Florida each winter. It's common knowledge that the temperature is warmer as you approach the equator; therefore, it was generally assumed that Florida winters would be warmer than Indiana. And while the lack of snow may have provided anecdotal evidence of this hypothesis, it certainly didn't prove it, nor did it provide evidence for anywhere beyond Indiana and Florida.
+                </p>
+                <p>
+                    In this project, I pulled data from OpenWeatherMap API to understand different weather trends near the equator. In particular, I looked at temperature, humidity, cloudiness, and wind speed. Click the visualizations on the right for more information about latitude's influence on that weather variable. Spoiler: It does look like temperatures are higher nearest the equator.
+                </p>
+            </section>
+
+            <!-- Visualizations sidebar -->
+            <aside id="sidebar">
+                <h1>Visualizations</h1>
+                <hr>
+                <div class='row'>
+                    <div class='col-md-6'>
+                        <img src="assets/Fig1.png" alt='graph showing latitude vs. max temperature'>
+                    </div>
+                    <div class='col-md-6'>
+                        <img src="assets/Fig2.png" alt='graph showing latitude vs. humidity'>
+                    </div>
+                </div>
+                <div class='row'>
+                    <div class='col-md-6'>
+                        <img src="assets/Fig3.png" alt='graph showing latitude vs. cloudiness'>
+                    </div>
+                    <div class='col-md-6'>
+                        <img src="assets/Fig4.png" alt='graph showing latitude vs. wind speed'>
+                    </div>
+                </div>
+            </aside>
+        </main>
+
+      </container>
+
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+
+</body>
+
+</html>

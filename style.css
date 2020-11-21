@@ -1,0 +1,59 @@
+.navbar {
+    padding-bottom: 0px;
+}
+
+.navbar-brand {
+    background: rgb(157, 141, 245);
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.nav-link {
+    margin-left: 10px;
+}
+
+.final-nav-item {
+    margin-right: 50px;
+}
+
+.single-column {
+    background: rgba(157, 141, 245, 0.2);
+    padding: 20px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+#landing-page,
+#sidebar {
+    float: left;
+}
+
+#introduction {
+    position: relative;
+}
+
+#landing-page {
+    width: 60%;
+    background: rgba(157, 141, 245, 0.2);
+    padding: 20px;
+    margin-right: 2%;
+}
+
+#sidebar {
+    width: 38%;
+    background: rgba(157, 141, 245, 0.2);
+    padding: 20px;
+}
+
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
