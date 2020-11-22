@@ -52,58 +52,50 @@
   </nav>
 
   <container>
+
     <main class="container">
+      <div class="row">
 
-      <!-- Page heading | One column on all screens -->
-      <section>
-        <div class="row">
-          <h1 class='col-12'>Plot Comparisons</h1>
-        </div>
-        <div class="row">
-          <hr class='col-12'>
-        </div>
-        <div class="row">
-          <p class='col-12'>
-            Here you can view all four plots side-by-side. Click on any plot to learn more.
+        <!-- Latitude project overview -->
+        <section class='col-sm-12 col-md-8'>
+          <h1>Latitude vs. Max Temperature</h1>
+          <hr>
+          <img src='assets/Max-Temp.png' alt='graph showing latitude vs. max temperature' class='visualization'>
+            When comparing latitude with maximum temperature of a city, we see that the highest, and therefore warmest, temperatures occur closest to the equator - or latitude equal to 0. As we move away from 0 in either direction, the tempearture tends to decrease.
           </p>
-        </div>
-      </section>
+        </section>
 
-      <!-- Graph images | 2x2 on medium, large, xlarge screens; 1x4 on small and xsmall -->
-      <section>
-        <div class="row">
-          <div class='col-12 col-md-6' style='margin-bottom: 50px'>
-            <h2>Climate vs. Max Temperature</h2>
-            <a href='max-temperature.html'>
-            <img src="assets/Max-Temp.png" alt='graph showing latitude vs. max temperature'>
-            </a>
-          </div>
-          <div class='col-12 col-md-6' style='margin-bottom: 50px'>
-            <h2>Climate vs. Humidity</h2>
-            <a href='humidity.html'>
-            <img src="assets/Humidity.png" alt='graph showing latitude vs. humidity'>
-            </a>
-          </div>
-        </div>
-        <div class="row">
-          <div class='col-12 col-md-6' style='margin-bottom: 50px'>
-            <h2>Climate vs. Cloudiness</h2>
-            <a href='cloudiness.html'>
-            <img src="assets/Cloudiness.png" alt='graph showing latitude vs. cloudiness'>
-            </a>
-          </div>
-          <div class='col-12 col-md-6' style='margin-bottom: 50px'>
-            <h2>Climate vs. Wind Speed</h2>
-            <a href='wind-speed.html'>
-            <img src="assets/Wind-Speed.png" alt='graph showing latitude vs. wind speed'>
-            </a>
-          </div>
-        </div>
-
-      </section>
-
+        <!-- Visualizations sidebar -->
+        <aside class='col-sm-12 col-md-4'>
+            <h1>Visualizations</h1>
+            <hr>
+            <div class='row'>
+              <div class='col-sm-12 col-md-6'>
+                <a href='max-temperature.html'>
+                <img src="assets/Max-Temp.png" alt='graph showing latitude vs. max temperature' class='active-state'>
+                </a>
+              </div>
+              <div class='col-sm-12 col-md-6'>
+                <a href='humidity.html'>
+                <img src="assets/Humidity.png" alt='graph showing latitude vs. humidity'>
+                </a>
+              </div>
+            </div>
+            <div class='row'>
+              <div class='col-sm-12 col-md-6'>
+                <a href='cloudiness.html'>
+                <img src="assets/Cloudiness.png" alt='graph showing latitude vs. cloudiness'>
+                </a>
+              </div>
+              <div class='col-sm-12 col-md-6'>
+                <a href='wind-speed.html'>
+                <img src="assets/Wind-Speed.png" alt='graph showing latitude vs. wind speed'>
+                </a>
+              </div>
+            </div>
+          </aside>
     </main>
-
+    </div>
   </container>
 
 
